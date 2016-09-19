@@ -61,7 +61,7 @@ task usercontrol(){
 		motor[leftBack] = vexRT[Ch3];
 		motor[rightFront] = vexRT[Ch2]*-1;
 		motor[rightBack] = vexRT [Ch2]*-1;
-	    SensorValue[Pneumatic1] = vexRT[Btn7U];
+	    	SensorValue[Pneumatic1] = vexRT[Btn7U];
 		SensorValue[Pneumatic2] = vexRT[Btn7U];
 		}
 }
