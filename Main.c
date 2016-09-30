@@ -1,3 +1,4 @@
+//this is my edit example
 #pragma config(Sensor, dgtl1,  Pneumatic1,     sensorDigitalOut)
 #pragma config(Sensor, dgtl2,  Pneumatic2,     sensorDigitalOut)
 #pragma config(Motor,  port1,           leftFront,     tmotorVex393_HBridge, openLoop)
