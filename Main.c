@@ -5,8 +5,10 @@
 #pragma config(Motor,  port2,           leftBack,      tmotorVex393_MC29, openLoop)
 #pragma config(Motor,  port9,           rightBack,     tmotorVex393_MC29, openLoop)
 #pragma config(Motor,  port10,          rightFront,    tmotorVex393_HBridge, openLoop)
+#pragma platform(VEX2)
+#pragma competitionControl(Competition)
 
-#include "include.c"
+#include "Vex_Competition_Includes.c"
 
 void setLeft(int speed) {
     motor[leftFront] = speed;
